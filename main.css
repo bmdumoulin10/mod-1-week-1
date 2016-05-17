@@ -1,0 +1,139 @@
+/* ADD YOUR STYLES HERE */
+/*Section 1 table styles*/
+
+.table1{
+    width: 100%;
+}
+
+.tab1e1 th, tr{
+    border-bottom: 1px solid #c8c8c8;
+    padding: 10px;
+}
+
+.table1 tr:last-child{
+    border-bottom: none;
+}
+
+.table1 td{
+    padding: 10px;
+}
+
+/* Section 2 table styles*/
+
+.stats-table{
+    width: 35%;
+    border-bottom: 1px solid #c8c8c8;
+    border-top: 1px solid #c8c8c8;
+    font-weight: bold;
+}
+
+.stats-table tr td{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.small-font{
+    color: #c8c8c8;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+/* Section 3 table styles*/
+
+.bar-chart{
+    width: 100%;
+}
+.bar-chart th{
+    text-align: right;
+    width: 14%;
+    padding-right: 10px;
+}
+
+.bar-chart th{
+    border-top: none;
+    border-bottom: none;
+}
+
+.bar-chart td{
+    color: white;
+}
+
+.bar-chart div{
+    background-color: #3399ff;
+    padding: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bar-chart tr{
+    padding: 5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+/*Styles for te lightbox*/
+/* This is commented out so that the rest of the module can be completed on the page
+
+#graybox {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+#whitebox{
+    width: 60%;
+    height: 40%;
+    position: relative;
+    left: 20%;
+    top: 30%;
+}
+
+#textbox{
+	padding: 20px;
+	border-radius: 20px;
+	background-color: white;
+	text-align: left;
+}
+
+#close{
+    background-color: #ed81aa;
+    border-radius: 5px;
+    height: 30px;
+    width: 96px;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    left: 80%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 22%;
+}
+*/
+
+/*Section 5 style edits*/
+
+.media-img {
+  display: block;
+  float: left;
+}
+
+.media-comment {
+  display: block;
+  float: right;
+  width: 85%;
+  padding-right: 35px;
+}
+
+.media-img-inner {
+  margin-top: 60px;
+}
+
